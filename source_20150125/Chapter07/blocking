@@ -1,0 +1,26 @@
+declare
+v_large varchar2(80);
+v_small varchar2(30);
+begin
+-- I'm assigning the variable in the executable section because
+-- assignment errors in the declaration section are also very hard
+-- to troubleshoot!
+-- 12345678901234567890123456789012345678901234567890123456789012345678
+v_large :=
+'This is a large string of characters, at least longer than 30 bytes!';
+-- Now let's raise an exception
+begin
+-- This won't work! 68 bytes won't fit in 30 bytes!
+v_small := v_large;
+exception
+when OTHERS then
+pl(SQLERRM);
+pl('Moving v_large, length '||
+to_char(length(v_large))||' into v_small.');
+raise_application_error(-20001, SQLERRM||
+' on v_small := v_large'||
+' in my anonymous procedure');
+end;
+pl(v_small);
+end;
+/
