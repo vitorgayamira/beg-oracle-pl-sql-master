@@ -4,8 +4,8 @@ rem a script that fails on purpose
 
 declare
 
-n_number                              number;
-v_number                              varchar2(30);
+n_number    number;
+v_number    varchar2(30);
 
 begin
   pl('begin');
@@ -24,7 +24,9 @@ begin
   
   pl('before addition');
   begin
-    pl('n_number + v_number = '||to_char(n_number + to_number(v_number)));
+    pl('n_number + v_number = '
+       ||to_char(n_number 
+         + to_number(v_number)));
   exception
     when OTHERS then
       pl('n_number = '||to_char(n_number));
