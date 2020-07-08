@@ -26,7 +26,7 @@ begin
   begin
     pl('n_number + v_number = '
        ||to_char(n_number 
-         + to_number(v_number)));
+       + to_number(v_number)));
   exception
     when OTHERS then
       pl('n_number = '||to_char(n_number));
