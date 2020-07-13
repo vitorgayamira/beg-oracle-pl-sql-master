@@ -1,6 +1,6 @@
 grant debug connect session to OPS;
 
-grant debug any procedure to USER;
+grant debug any procedure to OPS;
 
 /*
 begin
