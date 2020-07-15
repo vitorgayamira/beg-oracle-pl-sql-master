@@ -1,1 +1,1 @@
-@avg_profile.sql 4
+SQL> @ord_profile.sql 4
