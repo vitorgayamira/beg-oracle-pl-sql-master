@@ -1,0 +1,9 @@
+ declare
+
+ TYPE name_table IS TABLE OF WORKERS.name%TYPE
+ INDEX BY BINARY_INTEGER;
+
+ t_name name_table;
+
+ n_name binary_integer;
+ ...
