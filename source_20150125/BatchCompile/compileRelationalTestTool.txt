@@ -1,0 +1,5 @@
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter08/rps.tests.tab
+
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter08/rps.test_internationalized.pks;
+
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter08/rps.test_internationalized.pkb;
