@@ -1,0 +1,8 @@
+--create relational table debugs
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/rps.debugs.tab
+
+--compile package specification debug
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/rps.debug.pks
+
+--compile package body debug
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/rps.debug.pkb
