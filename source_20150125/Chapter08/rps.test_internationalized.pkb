@@ -264,4 +264,4 @@
 
  end TEST;
  /
- @be.sql TESTS
+ @https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/be.sql TEST;

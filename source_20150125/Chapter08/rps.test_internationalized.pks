@@ -179,4 +179,4 @@
 
  end TEST;
  /
- @se.sql TEST
+ @https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/se.sql TEST;
