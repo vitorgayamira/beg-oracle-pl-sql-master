@@ -82,4 +82,4 @@ end set_text;
 
 end DEBUG;
 /
-@be.sql DEBUG;
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/be.sql DEBUG;
