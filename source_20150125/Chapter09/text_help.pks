@@ -26,4 +26,4 @@
 
  end text_help;
  /
- @se.sql
+ @https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/se.sql text_help;
