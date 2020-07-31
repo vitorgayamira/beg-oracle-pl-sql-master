@@ -27,4 +27,4 @@ aiv_text                       in     DEBUGS.text%TYPE);
 
 end DEBUG;
 /
-@se.sql DEBUG;
+@https://raw.githubusercontent.com/vitorgayamira/beg-oracle-pl-sql-master/master/source_20150125/Chapter07/se.sql;
